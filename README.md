@@ -1,10 +1,10 @@
 # Layouts-SwiftUI
 
-I think SwiftUI is more than an incredible framework for software developing. It can be used for design layoffs and templates with excelent visual results and total control of each component of the creation.
+I think SwiftUI is more than an incredible framework for software developing. It can be used for design layouts and templates with excelent visual results and total control of each component of the creation.
 
 ## Background LinkedIn profile
 
-So when I faced the creation of my LinkedIn and I didn't doubt in put in practice my previous statement. I used SwiftUI instead of any standard tool for create templates susch as Canva or Photoshop.
+So when I faced the creation of my LinkedIn and I didn't doubt in put in practice my previous statement. I used SwiftUI instead of any standard tool for create templates such as Canva or Photoshop.
 
 The inspiration of the template was the last WWDC2022, I merged main ideas of the talk of Joshua Shaffer at the beginning of the State of the Union Keynote.
 
