@@ -11,6 +11,8 @@
 		1EA207BA29841F6500D4ADD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA207B929841F6500D4ADD0 /* ContentView.swift */; };
 		1EA207BC29841F6700D4ADD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA207BB29841F6700D4ADD0 /* Assets.xcassets */; };
 		1EA207BF29841F6700D4ADD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA207BE29841F6700D4ADD0 /* Preview Assets.xcassets */; };
+		1EA207C6298420D300D4ADD0 /* BackgroundLinkedIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA207C5298420D300D4ADD0 /* BackgroundLinkedIn.swift */; };
+		1EA207C8298420DF00D4ADD0 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA207C7298420DF00D4ADD0 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		1EA207B929841F6500D4ADD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1EA207BB29841F6700D4ADD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EA207BE29841F6700D4ADD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1EA207C5298420D300D4ADD0 /* BackgroundLinkedIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundLinkedIn.swift; sourceTree = "<group>"; };
+		1EA207C7298420DF00D4ADD0 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				1EA207B729841F6500D4ADD0 /* LayoutsApp.swift */,
 				1EA207B929841F6500D4ADD0 /* ContentView.swift */,
+				1EA207C5298420D300D4ADD0 /* BackgroundLinkedIn.swift */,
+				1EA207C7298420DF00D4ADD0 /* ColorExtension.swift */,
 				1EA207BB29841F6700D4ADD0 /* Assets.xcassets */,
 				1EA207BD29841F6700D4ADD0 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EA207C6298420D300D4ADD0 /* BackgroundLinkedIn.swift in Sources */,
 				1EA207BA29841F6500D4ADD0 /* ContentView.swift in Sources */,
 				1EA207B829841F6500D4ADD0 /* LayoutsApp.swift in Sources */,
+				1EA207C8298420DF00D4ADD0 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +290,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.EduardoDev.Layouts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -311,9 +322,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.EduardoDev.Layouts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
