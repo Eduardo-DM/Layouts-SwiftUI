@@ -2,6 +2,10 @@
 
 I think SwiftUI is more than an incredible framework for software developing. It can be used for design layouts and templates with excellent visual results and total control of each component of the creation.
 
+## A card with a button, blur effects, font with variableValue
+
+A demo of a card where I play with vibrancy, blur effects, a button that changes the variableValue of a font (aqui.medium)
+
 ## Background LinkedIn profile
 
 So when I faced the creation of my LinkedIn and I didn't doubt in put in practice my previous statement. I used SwiftUI instead of any standard tool for create templates such as Canva or Photoshop.
