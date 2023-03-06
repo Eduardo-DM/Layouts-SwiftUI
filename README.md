@@ -1,6 +1,6 @@
 # Layouts-SwiftUI
 
-I think SwiftUI is more than an incredible framework for software developing. It can be used for design layouts and templates with excelent visual results and total control of each component of the creation.
+I think SwiftUI is more than an incredible framework for software developing. It can be used for design layouts and templates with excellent visual results and total control of each component of the creation.
 
 ## Background LinkedIn profile
 
