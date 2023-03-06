@@ -9,11 +9,11 @@ import SwiftUI
 
 struct CardWithButtonView: View {
     
-    @State private var vaquiValue: Double = 0.0
+    @State private var aqiValue: Double = 0
     
     var body: some View {
         VStack(spacing: 20){
-            Image(systemName: "aqi.medium", variableValue: vaquiValue)
+            Image(systemName: "aqi.medium", variableValue: aqiValue)
                 .imageScale(.large)
                 .foregroundColor(.green)
                 .font(.system(size: 50))
@@ -27,7 +27,7 @@ struct CardWithButtonView: View {
                 .foregroundStyle(.secondary)
                 .fontWeight(.semibold)
             Button {
-                vaquiValue += 0.3
+                aqiValue += 0.3
             } label: {
                 Text("Increase aqi.medium value")
                     .foregroundStyle(.secondary)
