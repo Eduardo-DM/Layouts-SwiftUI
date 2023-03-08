@@ -50,19 +50,39 @@ struct BackgroundLinkedIn: View {
     }
     
     var body: some View {
-        degradeBackground
-            .overlay(alignment: .top){
-                VStack(spacing:2){
-                    quote
-                    logos
+        ViewThatFits{
+            
+            //  The first view is the perfect & origianl size to see in iPAD preview or simulator and it was used to copy & past seamlessly in Linkedin.
+            degradeBackground
+                .overlay(alignment: .top){
+                    VStack(spacing:2){
+                        quote
+                        logos
+                    }
                 }
-            }
-            .overlay(alignment:.bottomTrailing){
-                quoteSource
-                    .padding([.bottom, .trailing], 6)
-                    .padding([ .trailing], 10)
-            }
-            .frame(width: 640, height:160)
+                .overlay(alignment:.bottomTrailing){
+                    quoteSource
+                        .padding([.bottom, .trailing], 6)
+                        .padding([ .trailing], 10)
+                }
+                .frame(width: 640, height:160)
+            
+            //  I use ViewThatFits to show a version of the "brackground" without clipping in previews or simulators of devices narrower than 640 points.
+            degradeBackground
+                .overlay(alignment: .top){
+                    VStack(spacing:2){
+                        quote
+                        logos
+                    }
+                }
+                .overlay(alignment:.bottomTrailing){
+                    quoteSource
+                        .padding([.bottom, .trailing], 6)
+                        .padding([ .trailing], 10)
+                }
+                .frame(width: .infinity, height: 180)
+                .padding()
+        }
     }
 }
 
